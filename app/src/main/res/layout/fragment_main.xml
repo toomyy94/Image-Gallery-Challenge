@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@color/whiteTransparent"
+    tools:context=".views.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageGalleryLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/image_gallery_logo" />
+
+        <LinearLayout
+            android:id="@+id/tagLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageGalleryLogo"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:weightSum="2">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/tagSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.6"
+                android:hint="@string/tag" />
+
+            <ImageButton
+                android:id="@+id/tagButtonSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_toRightOf="@+id/tagSearch"
+                android:src="@mipmap/baseline_search_black_36" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textLayout"
+            android:weightSum="2"
+            android:layout_below="@id/tagLayout">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/textSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.6"
+                android:hint="@string/text" />
+
+            <ImageButton
+                android:id="@+id/textButtonSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:layout_toRightOf="@+id/textSearch"
+                android:src="@mipmap/baseline_search_black_36" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/internetCheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_marginBottom="116dp"
+            android:layout_below="@+id/textLayout" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="azul">#2196F3</color>
+    <color name="azulbebe">#5012cDff</color>
+    <color name="amarelo">#50FFFF00</color>
+    <color name="laranja">#50FFA500</color>
+    <color name="laranjaescuro">#FFFF6500</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorDivider">#B6B6B6</color>
+    <color name="verde">#388E3C</color>
+    <color name="colorMenuOlive">#808000</color>
+    <color name="whiteTransparent">#80ffffff</color>
+    <color name="blackTransparent">#80000000</color>
+
+    <color name="color_branding">#0F9FB1</color>
+    <color name="color_branding_second">#0e9fb4</color>
+    <color name="color_pressed">#EFEFEF</color>
+    <color name="color_radio">#B8C6C8</color>
+    <color name="color_fragment">#B8C6C8</color>
+    <color name="color_step_off">#00BFFF</color>
+    <color name="color_step_on">#FFFFFF</color>
+    <color name="color_step_default">#BEBEBE</color>
+    <color name="color_text_anomalias">#00BFFF</color>
+    <color name="color_text_not_press_anomalias">#FFFFFF</color>
+    <color name="color_bot_select_anom">#0F9FB1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey_second">#686e71</color>
+    <color name="black">#00000f</color>
+    <color name="transparent">#FFFFFFFF</color>
+</resources>
